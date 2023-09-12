@@ -8,4 +8,48 @@
     
 }
 
+/* Flexbox Practice */
+
+/* flex-direction
+    row
+    row-reverse
+    column
+    column-reverse
+*/
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: dodgerblue;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.container > p {
+    background-color: red;
+    color: yellowgreen;
+    font-size: 2rem;
+
+    padding: 16px;
+    margin: 16px;
+}
+
+
+/* Grid Practice*/
+
+.grid-container {
+    background-color: rebeccapurple;
+    display: grid;
+    column-gap: 50px;
+    row-gap: 50px;
+    grid-template-columns: auto auto auto;
+}
+
+.grid-container > p {
+    background-color: gold;
+    color: green;
+    font-size: 2rem;
+}
+
 
